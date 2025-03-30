@@ -1,0 +1,39 @@
+int x = 42;
+char letter = 'Z';
+
+for (int i = 0; i < 5 && x > 10; i++) {
+    output(x + i);
+}
+
+while (true && x != 0) {
+    x = x - 1;
+    output("Looping...\n");
+}
+
+// Multiple assignments and math
+y = a * (b + 2) / 3.0 - 7.1;
+z += y - 5;
+
+// Nested function call
+print(add(mul(2, 5), sub(10, 3)));
+
+// Invalid redeclaration to test error handling
+int x = read();
+
+// Logic test
+if (flag || level >= 10 && score < 1000) {
+    boost();
+} else {
+    reset();
+}
+
+// String, boolean, and float test
+string name = "Player";
+bool isAlive = true;
+float health = 99.5;
+
+// Comment at the end
+// Game over condition
+if (health <= 0) {
+    gameOver();
+}
